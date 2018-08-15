@@ -1,7 +1,7 @@
 package com.revature.animals;
 import Animal.java;
 
-public class Bat extends Mammal {
+public class Bat extends Animal {
 	
 	public Bat(boolean sleepsUpsideDown) {
 		super();
