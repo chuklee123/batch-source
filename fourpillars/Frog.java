@@ -1,13 +1,13 @@
 package com.revature.fourpillars;
 /*
- * This class makes use of an Abstract class and an Implementation displaying two of the pillars on OOP.
+ * This class makes use of an Abstract class and an Interface displaying two of the pillars of OOP.
  * 
- * Having extended the abstract class Animal provides inheritance which gives this class, Frog, the methods 
+ * Having extended the abstract class Animal provides Inheritance which gives this class, Frog, the methods 
  * and variables of the abstract class, as well as implementing the abstract methods outlined in the abstract
  * class which acts as a basic blue print of all subclasses of the Animal class. This shows us Inheritance.
  * 
  * By implementing the interface Amphibian this class must define the methods outlined in the interface. This allows 
- * this class to inherit from more than one class.
+ * this class to inherit from more than one class, and ensures that it follows the blue print given by the interface.
  */
 public class Frog extends Animal implements Amphibian{
 	
