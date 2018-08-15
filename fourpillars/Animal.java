@@ -11,9 +11,9 @@ public abstract class Animal {
 
 	
 /* 
- * By making these variables private, they can only be accessed with the getters and setters in 
- * this class creates encapsulation by wrapping the data members and their methods of accessing
- * them into one unit
+ * By making these variables protected, they can only be accessed with the getters and setters in 
+ * this class showing us encapsulation by wrapping the data members and their methods of accessing
+ * them into one unit which can not be accessed outside of the package
  */
 	protected String size;
 	protected boolean isPredator;
