@@ -1,5 +1,5 @@
 package com.revature.animals;
-
+import Animal.java;
 
 public class Fish extends Animal {
 	

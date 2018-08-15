@@ -1,4 +1,5 @@
 package com.revature.animals;
+import Animal.java;
 
 public class FlyingFish extends Fish {
 

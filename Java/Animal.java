@@ -1,5 +1,5 @@
 package com.revature.animals;
-import com.revature.AgeException;
+import AgeException.java;
 
 public class Animal {
 	private int numLimbs;
@@ -22,12 +22,6 @@ public class Animal {
 		super();
 	}
 	
-	public Animal(int age) throws AgeException {
-		if(age < 0) {
-			throw new AgeException();
-		}
-		this.age = age;
-	}
 	
 	public Animal(int numLimbs) {
 		this.numLimbs = numLimbs;
@@ -46,12 +40,6 @@ public class Animal {
 	}
 
 	
-	public int getAge() {
-		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
 	public int getNumLimbs() {
 		return numLimbs;
 	}
